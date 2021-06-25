@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <title>Контрольная работа</title>
+</head>
+<body>
+<div class="container">
+    <div class="main-ui-control-panel">
+        <div class="grid">
+            <input type="number" id="section" class="main-ui-input" placeholder="Номер практической">
+            <input type="number" id="task" class="main-ui-input" placeholder="Номер задачи">
+            <button onclick="getDecision();" class="main-ui-input main-ui-execute">Показать решение</button>
+            <a href="landing.html" class="main-ui-link">Перейти на посадочную страницу</a>
+        </div>
+    </div>
+    <div class="result" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
